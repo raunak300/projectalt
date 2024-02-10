@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="addtocart.css">
+    <title>Add to cart </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-heading w-100 h-[50px] bg-black ">
+                <div class="text-center text-white pt-3 container1    ">
+                <span>
+
+                    <i class="fa-solid fa-chevron-left"></i>
+                   
+                        Free Shipping on Prepaid Orders 
+                   
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+                </div>
+
+            </div>
+        </nav>
+        <div class="category container1 flex justify-between h-[90px] mb-2">
+            <div >
+                <h1 style="color: rgb(0, 0, 0); text-decoration: underline">Anime <span style="color: red;">Wrap</span></h1>
+            </div>
+            <div class="logo">
+                <ul class="flex  items-center h-[90px] gap-5 ">
+                    <li class="hover:text-blue-400">Shop By Anime <i class="fa-solid fa-chevron-down"></i></li>
+                    <li class="hover:text-blue-400">Shop By category <i class="fa-solid fa-chevron-down"></i></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex gap-8 h-full items-center">
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><i class="fa-solid fa-user"></i></li>
+                    <li><i class="fa-solid fa-cart-shopping"></i></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+<main>
+    <div class="price-section container1 flex justify-between">
+
+        <div class="price-small-img ">
+            <img class="rounded-lg my-1  cursor-pointer " src="https://animemart.in/cdn/shop/products/SasukeUchihaRedMoonThemedPhoneCover.jpg?v=1652784448&width=64" alt="">
+            <img  class="rounded-lg my-1 cursor-pointer " src="https://animemart.in/cdn/shop/products/SasukeUchihaRedMoonThemedPhoneCoverWithKeychain.jpg?v=1652784461&width=64" alt="">
+            <img  class="rounded-lg my-1  cursor-pointer" src="https://animemart.in/cdn/shop/products/BhaukaalStoreCableProtector_2fc16d3e-0367-414b-b71e-6cacb73e6025.jpg?v=1667471096&width=64" alt="">
+        </div>
+        <div class="show-image">
+            <img class="h-[550px] rounded-lg" src="https://animemart.in/cdn/shop/products/SasukeUchihaRedMoonThemedPhoneCoverWithKeychain.jpg?v=1652784461&width=800" alt="">
+        </div>
+        <div class="pricing-details-section w-[600px]">
+            <h1 class="text-5xl font-bold">
+                Sasuke Uchiha Red Moon Phone Cover
+            </h1>
+            <p class="text-yellow-500 my-5" ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+           <div class="flex gap-1 my-5" >
+               <p><i class="fa-solid fa-indian-rupee-sign text-xl mt-[5px] "></i><h2 class="text-xl text-red-700 font-bold " >397.00</h2></p>
+               <p class="mt-[5px] translate-y-1" ><i class="fa-solid fa-indian-rupee-sign translate-y-[-8px]  "></i><p class="line-through  font-bold text-gray-600">989.00</p></p>
+               <div class="save w-16 h-6 text-xs text-center pt-1 text-white font-bold bg-red-800 rounded-3xl">Save60%</div>
+
+
+           </div>
+           <hr>
+           <form action="" class="my-4">
+            <div class="brand">
+                <label for="brand" class="block">Select Brand:</label>
+               <select name="brand" class="w-full h-[40px] border-2 border-black my-3" id="phones" >
+                <option value disabled   ="disabled" selected="selected" >Select Brand</option>
+                <option value="Apple">Apple</option>
+                <option value="One Plus">One Plus</option>
+                <option value="Realme">Realme</option>
+                <option value="Oppo">Oppo</option>
+                <option value="Honor">Honor</option>
+                <option value="iqoo">iqoo</option>
+                <option value="Rog">Rog</option>
+                <option value="infinix">infinix</option>
+                <option value="Vivo">Vivo</option>
+                <option value="Samsung">Samsung</option>
+                <option value="Poco">Poco</option>
+               </select>
+            </div>
+            <div class="keychain ">
+                <p class="font-[500]">Keychain:</p>
+               <div class="flex gap-3 mt-3">
+
+                   <label  class="cursor-pointer">
+                    <input type="radio" name="keychain" class="peer sr-only">
+                    <div class="w-14  pt-1 h-8 ring-1 ring-gray-500 text-center rounded-full peer-checked:border-2 peer-checked:ring-2 peer-checked:ring-blue-900">
+                        <p>Yes</p>
+    
+                    </div>
+                   </label>
+                   <label  class="cursor-pointer">
+                    <input type="radio" name="keychain" class="peer sr-only">
+                    <div class="w-14 pt-1 h-8 ring-1 ring-gray-500 text-center rounded-full peer-checked:border-2 peer-checked:ring-2 peer-checked:ring-blue-900">
+                        <p>No</p>
+    
+                    </div>
+                   </label>
+               </div>
+                
+            </div>
+            <div class="cable ">
+                <p class="font-[500]">Protector(49):</p>
+               <div class="flex gap-3 mt-3">
+
+                   <label  class="cursor-pointer">
+                    <input type="radio" name="cable" class="peer sr-only">
+                    <div class="w-14  pt-1 h-8 ring-1 ring-gray-500 text-center rounded-full peer-checked:border-2 peer-checked:ring-2 peer-checked:ring-blue-900">
+                        <p>Yes</p>
+    
+                    </div>
+                   </label>
+                   <label  class="cursor-pointer">
+                    <input type="radio" name="cable" class="peer sr-only">
+                    <div class="w-14 pt-1 h-8 ring-1 ring-gray-500 text-center rounded-full peer-checked:border-2 peer-checked:ring-2 peer-checked:ring-blue-900">
+                        <p>No</p>
+    
+                    </div>
+                   </label>
+               </div>
+                
+            </div>
+            <div class="quantity ">
+                <p class="text-gray-500">Quantity:</p>
+                <div class="w-[90px] h-8   mt-4 flex justify-between items-center ">
+                    <i onclick="decrement()"  class="fa-solid fa-minus ring-1 text-[12px] rounded-l-full ring-black cursor-pointer h-8 w-5 pt-2 pl-1"></i>
+               <p id="counting" class="ring-1 text-center    ring-black cursor-pointer h-8 w-12 pt-1 pl-1">0</p>
+               
+                <i onclick="increment()" class="fa-solid fa-plus fa-solid fa-minus text-[12px] ring-1 rounded-r-full ring-black cursor-pointer h-8 w-5 pt-2 pl-1"></i>
+
+                </div>
+
+            </div>
+            <div class="stock mt-5 flex gap-1 text-green-700">
+                <p><i class="fa-solid fa-circle-check"></i><p > in stock </p></p>
+            </div>
+            <button class="w-full bg-red-700 text-white h-12 rounded-lg mt-2">Add to Cart</button>
+           </form>
+        </div>
+    </div>
+</main>
+
+
+    <script src="https://kit.fontawesome.com/3cc94f2095.js" crossorigin="anonymous"></script>
+    <script>
+        let count = document.getElementById("counting")
+        let countValue = count.innerText
+       function increment(){
+        if(count.innerText >=10){
+            count.innerText = 10
+
+        }
+        else{
+            countValue++
+            count.innerText = countValue
+            
+        }
+         
+        
+       }
+       function decrement(){
+
+           
+           if(count.innerText <= 0){
+           
+            count.innerText = 0;
+        }
+        else{
+            countValue--
+            count.innerText = countValue
+        }
+         
+        
+       }
+
+        console.log(count)
+    </script>
+</body>
+</html>
